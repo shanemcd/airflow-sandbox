@@ -1,0 +1,6 @@
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/shanemcd/airflow-sandbox.git
+    branch: main
+    subPath: dags
